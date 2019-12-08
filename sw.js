@@ -31,6 +31,9 @@ self.addEventListener('install', e => {
     caches.open(cacheName).then(cache => {
       return cache.addAll([
 	"/",
+	"README.md",
+	"app.js",
+	"config.json",
 	"css/components/card.css",
 	"css/components/modal.css",
 	"css/desktop/container.css",
@@ -66,6 +69,7 @@ self.addEventListener('install', e => {
 	"index.html",
 	"js/init.js",
 	"js/packages/installer.js",
+	"js/packages/org.quickcorp.custom.backend.helloworld.js",
 	"js/packages/org.quickcorp.custom.components.js",
 	"js/packages/org.quickcorp.custom.controllers.js",
 	"js/packages/org.quickcorp.custom.js",
@@ -565,7 +569,8 @@ self.addEventListener('install', e => {
 	"templates/components/signin.tpl.html",
 	"templates/components/signup.tpl.html",
 	"templates/components/signupbuttons.tpl.html",
-	"templates/components/signuppage.tpl.html"])
+	"templates/components/signuppage.tpl.html",
+	"testgql.js"])
           .then(() => self.skipWaiting());
     })
   );
