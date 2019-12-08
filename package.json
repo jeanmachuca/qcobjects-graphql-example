@@ -10,6 +10,15 @@
   },
   "description": ".",
   "license": "LGPL-3.0-or-later",
+  "keywords":[
+    "graphql",
+    "qcobjects",
+    "microservice",
+    "microservices",
+    "microservices-architecture",
+    "microservice-framework",
+    "demo"
+  ],
   "dependencies": {
     "graphql": "^14.5.8",
     "qcobjects": "latest"
