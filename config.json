@@ -1,0 +1,10 @@
+{
+  "relativeImportPath": "js/packages/",
+  "domain": "0.0.0.0",
+  "backend": {
+    "routes": [{
+      "path": "/helloworld",
+      "microservice": "org.quickcorp.custom.backend.helloworld"
+    }]
+  }
+}

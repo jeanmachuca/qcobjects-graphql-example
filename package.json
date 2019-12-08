@@ -1,0 +1,17 @@
+{
+  "name": "qcobjects-gql",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "jasmine"
+  },
+  "description": ".",
+  "license": "LGPL-3.0-or-later",
+  "dependencies": {
+    "graphql": "^14.5.8",
+    "qcobjects": "latest"
+  }
+}
