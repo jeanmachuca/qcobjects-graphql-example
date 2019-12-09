@@ -1,6 +1,7 @@
 {
   "relativeImportPath": "js/packages/",
   "domain": "0.0.0.0",
+  "serverPortHTTP":"8080",
   "backend": {
     "routes": [{
       "path": "/helloworld",
@@ -8,3 +9,4 @@
     }]
   }
 }
+

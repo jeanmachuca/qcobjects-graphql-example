@@ -1,5 +1,5 @@
 /**
- * QCObjects CLI 0.0.6
+ * QCObjects CLI 0.1.x
  * ________________
  *
  * Author: Jean Machuca <correojean@gmail.com>
