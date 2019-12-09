@@ -23,7 +23,6 @@
     "demo"
   ],
   "dependencies": {
-    "express": "^4.17.1",
     "graphql": "^14.5.8",
     "qcobjects": "^2.1.222",
     "qcobjects-cli": "^0.1.15",
