@@ -1,35 +1,12 @@
 {
-  "name": "qcobjects-gql-test1",
+  "name": "qcobjects-gql",
   "repository": {
     "type": "git",
     "url": ""
   },
-  "scripts": {
-    "start": "node app.js",
-    "test": "mocha --exit test/*.test.js"
-  },
-  "engines": {
-    "node": "12.x.x"
-  },
   "description": ".",
   "license": "LGPL-3.0-or-later",
-  "keywords": [
-    "graphql",
-    "qcobjects",
-    "microservice",
-    "microservices",
-    "microservices-architecture",
-    "microservice-framework",
-    "demo"
-  ],
   "dependencies": {
-    "graphql": "^14.5.8",
-    "qcobjects": "^2.1.222",
-    "qcobjects-cli": "^0.1.15",
-    "qcobjects-sdk": "latest"
-  },
-  "devDependencies": {
-    "mocha": "^6.1.4",
-    "supertest": "^4.0.2"
+    "qcobjects": "latest"
   }
 }

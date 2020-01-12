@@ -1,1 +1,1 @@
-require('qcobjects-cli/qcobjects-gae-http-server');
+require('qcobjects-cli/qcobjects-http2-server');
